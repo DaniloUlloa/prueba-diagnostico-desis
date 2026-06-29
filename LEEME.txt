@@ -1,0 +1,54 @@
+Hola,
+
+El formulario de productos fue desarrollado para ser compatible tanto con MySQL como con PostgreSQL, siendo este último el motor de base de datos solicitado en la prueba técnica.
+
+Con el objetivo de ofrecer mayor flexibilidad, el proyecto permite utilizar cualquiera de los dos motores de base de datos, dependiendo de sus necesidades.
+
+Configuración de la conexión
+
+Para configurar la conexión a la base de datos, deben editar el siguiente archivo:
+
+    - inc/config.php
+
+En este archivo deberán:
+
+    1. Seleccionar el motor de base de datos que desean utilizar (MySQL o PostgreSQL).
+
+    2. Configurar los datos de conexión correspondientes:
+        - Servidor (Host)
+        - Puerto
+        - Nombre de la base de datos
+        - Usuario
+        - Contraseña
+
+Una vez realizada esta configuración, el sistema estará listo para su utilización.
+
+Estructura del proyecto
+
+    - css/: Contiene todos los archivos de estilos del formulario.
+    - js/: Contiene los archivos JavaScript utilizados para las validaciones y funcionalidades del formulario.
+    - inc/: Contiene los archivos de configuración y conexión a la base de datos.
+    - sql/: Contiene los sql para importar la Base de Datos.
+
+Base de datos
+
+Se adjuntan los scripts de creación de la base de datos para ambos motores:
+
+    - MySQL
+    - PostgreSQL
+
+Muchas gracias por revisar mi desarrollo. Quedo atento a cualquier consulta o comentario.
+
+Versiones:
+PHP: 8.2.12
+Base de datos MySQL: MariaDB 10.4.32 (compatible con MySQL)
+Base de datos PostgreSQL: 18.4
+
+
+----------------------------------
+Danilo Ulloa Riffo
+Ingeniero en Informática
+djulloar@gmail.com
++569 7626 6645
+www.daniloulloa.cl
+----------------------------------

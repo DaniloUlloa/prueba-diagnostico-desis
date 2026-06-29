@@ -1,0 +1,122 @@
+  * {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 30px;
+    color: #1a1a1a;
+}
+
+.contenedor {
+    max-width: 1100px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    border: 1px solid #d9d9d9;
+    border-radius: 16px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+    padding: 30px 45px 45px 45px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 48px;
+    font-weight: bold;
+    margin: 20px 0 40px 0;
+    color: #1a1a1a;
+}
+
+.fila {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-bottom: 22px;
+}
+
+.campo {
+    flex: 1 1 calc(50% - 15px);
+    min-width: 250px;
+    display: flex;
+    flex-direction: column;
+}
+
+.campo-completo {
+    margin-bottom: 22px;
+}
+
+label {
+    
+    margin-bottom: 8px;
+    color: #1a1a1a;
+}
+
+.titulo-grupo {
+    
+    font-weight: bold;
+    margin-bottom: 12px;
+    display: block;
+    color: #1a1a1a;
+}
+
+input[type="text"],
+input[type="number"],
+select,
+textarea {
+    width: 100%;
+    padding: 11px 12px;
+    font-size: 15px;
+    border: 1px solid #555555;
+    border-radius: 6px;
+    background-color: #ffffff;
+    color: #1a1a1a;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+select {
+    appearance: auto;
+    cursor: pointer;
+}
+
+textarea {
+    resize: vertical;
+    min-height: 90px;
+}
+
+.materiales {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 28px;
+    align-items: center;
+}
+
+.material-item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.material-item input[type="checkbox"] {
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+}
+
+.boton-guardar {
+    display: block;
+    margin: 35px auto 0 auto;
+    background-color: #1aab8a;
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    padding: 16px 70px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.boton-guardar:hover {
+    background-color: #138a72;
+}
