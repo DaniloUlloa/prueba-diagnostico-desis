@@ -75,7 +75,7 @@ CREATE TABLE productos (
   bodega_id bigint(11) DEFAULT NULL,
   sucursal_id bigint(11) DEFAULT NULL,
   moneda_id bigint(11) DEFAULT NULL,
-  precio int(11) DEFAULT NULL,
+  precio DECIMAL(10,2) DEFAULT NULL,
   material longtext DEFAULT NULL,
   descripcion longtext DEFAULT NULL,
   estado int(1) DEFAULT NULL
