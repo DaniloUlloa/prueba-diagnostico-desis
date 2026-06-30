@@ -4,16 +4,16 @@ $conf["DBTYPE"] = "pgsql";
 
 // Configuración MySQL
 $conf["mysql"]["HOST"] = "localhost";
-$conf["mysql"]["USER"] = "root";
+$conf["mysql"]["USER"] = "";
 $conf["mysql"]["PWD"]  = "";
-$conf["mysql"]["NAME"] = "desis";
+$conf["mysql"]["NAME"] = "";
 $conf["mysql"]["PORT"] = "3306";
 
 // Configuración PostgreSQL
 $conf["pgsql"]["HOST"] = "localhost";
-$conf["pgsql"]["USER"] = "postgres";
-$conf["pgsql"]["PWD"]  = "1234";
-$conf["pgsql"]["NAME"] = "desis";
+$conf["pgsql"]["USER"] = "";
+$conf["pgsql"]["PWD"]  = "";
+$conf["pgsql"]["NAME"] = "";
 $conf["pgsql"]["PORT"] = "5432";
 
 
