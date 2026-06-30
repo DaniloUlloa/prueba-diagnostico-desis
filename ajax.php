@@ -27,7 +27,8 @@ switch ($modo) {
 
         $codigo      = $_POST["codigo"];
         $nombre      = $_POST["nombre"];
-        $precio      = $_POST["precio"];
+        $precio_raw  = trim($_POST["precio"]);
+        $precio      = ($precio_raw !== '') ? floatval(str_replace(',', '.', $precio_raw)) : 0;
         $bodega      = $_POST["bodega"];
         $sucursal    = $_POST["sucursal"];
         $moneda      = $_POST["moneda"];
