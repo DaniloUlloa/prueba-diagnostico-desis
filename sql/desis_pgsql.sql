@@ -95,7 +95,7 @@ CREATE TABLE public.productos (
     bodega_id bigint,
     sucursal_id bigint,
     moneda_id bigint,
-    precio integer,
+    precio NUMERIC(10,2),
     material text,
     descripcion text,
     estado integer
