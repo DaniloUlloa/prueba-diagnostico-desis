@@ -10,11 +10,11 @@ include("inc/head.php");
             <div class="fila">
                 <div class="campo">
                     <label for="codigo">Código</label>
-                    <input type="text" id="codigo" name="codigo" placeholder="PROD01K">
+                    <input type="text" id="codigo" name="codigo">
                 </div>
                 <div class="campo">
                     <label for="nombre">Nombre</label>
-                    <input type="text" id="nombre" name="nombre" placeholder="Set Comedor">
+                    <input type="text" id="nombre" name="nombre">
                 </div>
             </div>
 
@@ -52,7 +52,7 @@ include("inc/head.php");
                 </div>
                 <div class="campo">
                     <label for="precio">Precio</label>
-                    <input type="number" id="precio" name="precio" placeholder="1500">
+                    <input type="number" id="precio" name="precio">
                 </div>
             </div>
 
@@ -79,7 +79,7 @@ include("inc/head.php");
 
             <div class="campo-completo">
                 <label for="descripcion">Descripción</label>
-                <textarea id="descripcion" name="descripcion" placeholder="Elegante set de comedor de madera natural, incluye mesa y sillas. Diseño clásico y duradero, ideal para cualquier estilo de decoración. Perfecto para cenas familiares y reuniones sociales."></textarea>
+                <textarea id="descripcion" name="descripcion"></textarea>
             </div>
 
             <button type="button" class="boton-guardar" onclick="javascript:validaCampos();">Guardar Producto</button>
